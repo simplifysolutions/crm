@@ -10,7 +10,7 @@
         <xpath expr="//field[@name='user_id']" position="after">
                 <field name="last_activity_stage"/>
         </xpath>  
-        <xpath expr="//filter[@string='Salesperson']" position="after">
+        <xpath expr="//group" position="inside">
             <filter string="Current stage date" domain="[]" context="{'group_by':'last_activity_stage'}"/>
         </xpath>  
       </field>
@@ -52,7 +52,7 @@
         <xpath expr="//field[@name='user_id']" position="after">
                 <field name="last_activity_stage"/>
         </xpath>  
-        <xpath expr="//filter[@string='Salesperson']" position="after">
+        <xpath expr="//group" position="inside">
             <filter string="Current stage date" domain="[]" context="{'group_by':'last_activity_stage'}"/>
         </xpath>  
       </field>

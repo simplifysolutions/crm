@@ -34,6 +34,6 @@ You can make "group by" and search on the Current stage date field
           ],
  'demo_xml': [],
  'test': [],
- 'installable': False,
- 'active': False,
+ 'installable': True,
+ 'active': True,
  }
